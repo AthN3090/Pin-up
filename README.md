@@ -17,13 +17,25 @@ Step 1: Enable the extension.
 * Now, An icon of the extension will appear on the browser window besides the menu option.
 
 Step 2: Strting the server
-
 * Open Nodejs terminal inside the 'server' folder of the project.
-* Open the server, type the following command
+* Edit the server file, Add your secondary email details.
 ```
-node server.js
+function notifyUser(email,url){
+
+    const transporter = nodemailer.createTransport({
+        service:'gmail',
+        auth: {
+          user: "Your email", //your email
+          pass: "your password" //you can encrypt this or use a global node variable instead
+        }
+      });
 ```
-* The server will be running at lolcalhost:8000/
+* The server will be running at localhost:8000/
+
+Step 3: Start using the extension :)
+* Go to your suitable website and then open the extension by clicking on the icon.
+* Add your email
+* Click Pin this page! Now when
 
 
 ## Built With
