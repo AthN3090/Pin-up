@@ -14,9 +14,9 @@ Step 1: Enable the extension.
 * Go to your browser's setting option.
 * Locate the 'extension' option and select 'manage extensions'.
 * then select the 'Load unpacked' option, select it and then find the folder with the project files.
-* Now, An icon of the extension will appear on the browser window besides the menu option.
+* Now, An icon of the extension will appear on the browser window beside the menu option.
 
-Step 2: Strting the server
+Step 2: Starting the server
 
 * Open Nodejs terminal inside the 'server' folder of the project.
 * Edit the server file, Add your secondary email details to the following code in the file.
@@ -38,6 +38,7 @@ node server.js
 * The server will be running at localhost:8000/
 
 Step 3: Start using the extension :)
+
 * Go to your suitable website and then open the extension by clicking on the icon.
 * Add your email
 * Click Pin this page! Now whenever there is an update to the pinned website you will be notified through an email.
