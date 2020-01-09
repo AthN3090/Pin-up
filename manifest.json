@@ -1,0 +1,16 @@
+{
+    "manifest_version":2,
+    "name":"Pin uP",
+    "version": "1.0",
+    "browser_action":{
+        "default_icon":"/icons/pin.png",
+        "default_title":"Pin uP",
+        "default_popup":"index.html"
+    },
+    "icons":{
+        "48":"/icons/pin_large.png"
+    },
+    "permissions":[
+        "activeTab"
+    ]
+}

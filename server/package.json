@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cheerio": "latest",
+    "cors": "^2.8.5",
+    "express": "latest",
+    "nodemailer": "latest",
+    "nodemon": "^2.0.2",
+    "request": "latest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
