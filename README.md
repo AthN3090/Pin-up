@@ -18,7 +18,7 @@ Step 1: Enable the extension.
 
 Step 2: Strting the server
 * Open Nodejs terminal inside the 'server' folder of the project.
-* Edit the server file, Add your secondary email details.
+* Edit the server file, Add your secondary email details to the following code in the file.
 ```
 function notifyUser(email,url){
 
@@ -29,6 +29,10 @@ function notifyUser(email,url){
           pass: "your password" //you can encrypt this or use a global node variable instead
         }
       });
+```
+* Then run the folowing command to run start the server.
+```
+node server.js
 ```
 * The server will be running at localhost:8000/
 
