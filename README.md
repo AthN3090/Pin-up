@@ -27,7 +27,8 @@ function notifyUser(email,url){
         service:'gmail',
         auth: {
           user: "Your email", //your email
-          pass: "your password" //you can encrypt this or use a global node variable instead
+          pass: "your password" //your password
+          //for better security you can use environment variables instead
         }
       });
 ```
