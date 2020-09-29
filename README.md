@@ -1,6 +1,6 @@
 ## Pin-up
 A chromium-based browser extension which aims to notify the user for any updates on a website that was pinned by the user. It makes the user free from the trouble of continuously checking a website. 
-![demo](/screenshot/demo.gif)
+![demo](/Screenshots/demo.gif)
 ## Getting Started
 
 ### Prerequisites
