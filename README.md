@@ -1,5 +1,5 @@
 # Pin-up
-A chromium based browser extension for web monitoring and getting notified through email whenever there is an update.
+A chromium-based browser extension which aims to notify the user for any updates on a website that was pinned by the user. It makes the user free from the trouble of continuously checking a website. 
 
 ## Getting Started
 
