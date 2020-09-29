@@ -6,9 +6,7 @@ A chromium-based browser extension which aims to notify the user for any updates
   <img src="https://github.com/AthN3090/Pin-up/blob/master/Screenshots/demo.gif" />
 </p>
 
-<p align="center">
-  <img src="https://github.com/AthN3090/Pin-up/blob/master/Screenshots/Screenshot.png" />
-</p>
+
 ## Getting Started
 
 ### Prerequisites
